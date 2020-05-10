@@ -1,0 +1,1 @@
+to_encrypt=lambda t,d:''.join(chr((ord(s)-19+d)%26+97)if s.isalpha()else s for s in t)

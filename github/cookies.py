@@ -1,0 +1,1 @@
+get_cookie = lambda c, n: __import__('re').search(f'{n}=(.*?)(;|$)', c).group(1)

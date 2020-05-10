@@ -1,0 +1,1 @@
+best_stock = lambda d: max(d, key=d.get)

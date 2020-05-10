@@ -1,0 +1,1 @@
+is_ascending=lambda list:[all([item>prev[0],prev.__setitem__(0,item)][0] for item in list) for prev in [[-1e309]]][0]

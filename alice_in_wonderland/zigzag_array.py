@@ -1,0 +1,1 @@
+create_zigzag = lambda r, c, s=1: [[*range(j * c + s, j * c + c + s)][::1 - j % 2 * 2] for j in range(r)]

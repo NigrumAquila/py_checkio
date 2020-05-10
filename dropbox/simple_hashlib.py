@@ -1,0 +1,1 @@
+checkio = lambda t, m: getattr(__import__('hashlib'), m)(t.encode()).hexdigest()

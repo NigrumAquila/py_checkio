@@ -1,0 +1,1 @@
+checkio = lambda n: all(i==n or pow(i,n+~False,n)==True for i in map('   , . "'.index,',."'))

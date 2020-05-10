@@ -1,0 +1,2 @@
+h=lambda d,a,b:a==b or any((h(d-{i},i,b)for i in{(a[0]+x,a[1]+y) for x,y in[(1,0),(-1,0),(0,1),(0,-1)]}&d))
+can_pass=lambda d,a,b:h({divmod(i,len(d[0]))for i,x in enumerate(sum(d,()))if x==d[b[0]][b[1]]},a,b)

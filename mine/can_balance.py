@@ -1,0 +1,1 @@
+can_balance = lambda weights: ([-1] + [i for i in range(len(weights)) if sum((nl + 1) * l for nl, l in enumerate(weights[:i][::-1])) == sum((nr + 1) * r for nr, r in enumerate(weights[i+1:]))])[-1]

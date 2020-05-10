@@ -1,0 +1,2 @@
+from cmath import pi,exp,phase
+searchlights=lambda p,l:sum(sum(any([0<=phase(c)<=pi/2and s>=abs(a+1j*b-c)for(a,b,s) in l])for c in[x+1j*y+s*sum(exp(1j*pi/n*(-1-2*j))for j in range(i))for i in range(n)])for (x,y,s,n) in p)

@@ -1,0 +1,1 @@
+is_acceptable_password = lambda p: (0 < sum(c.isdigit() for c in p) < len(p) > 6 or len(p) > 9) and 'password' not in p.lower() and len(set(p)) >= 3

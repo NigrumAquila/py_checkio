@@ -1,0 +1,1 @@
+checkio = lambda n: str(bin(n)).count('1')

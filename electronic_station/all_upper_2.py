@@ -1,0 +1,1 @@
+is_all_upper = lambda t: t.isupper()

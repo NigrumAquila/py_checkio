@@ -1,0 +1,1 @@
+check_command = lambda p, c: ''.join('10'[x.isdigit()] for x in c) == '{:0={}b}'.format(p, len(c))

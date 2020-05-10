@@ -1,0 +1,1 @@
+isometric_strings = lambda s1, s2: len(set(zip(s1, s2))) == len(set(s1))

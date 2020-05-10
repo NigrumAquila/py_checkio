@@ -1,0 +1,1 @@
+checkio = lambda nums: max([n + checkio(nums[i:]) for i, n in zip((1, 2), nums[:2] + [0])] if nums else [0])
